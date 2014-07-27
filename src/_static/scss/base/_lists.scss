@@ -1,0 +1,110 @@
+/* Generic lists
+----------------------------------------------- */
+ul,
+ol,
+dl {
+  margin:0 0 1.5em;
+}
+
+/* Unordered list
+----------------------------------------------- */
+ul {
+
+}
+
+/* Ordered list
+----------------------------------------------- */
+ol {
+
+}
+
+/* Definition list
+----------------------------------------------- */
+dl {
+  dt {
+    font-weight:bold;
+  }
+}
+
+/* Definition list
+----------------------------------------------- */
+.reset-list {
+  list-style:none none outside;
+  padding-left:0;
+}
+
+/* Block list
+ ----------------------------------------------- */
+
+.block-list {
+  > li {
+    padding:.75em 0;
+  }
+}
+
+/* Nav
+ ----------------------------------------------- */
+.nav {
+  list-style:none none outside;
+  margin-left:0;
+  padding-left:0;
+
+  > li,
+  > li > a {
+    display:inline-block;
+  }
+
+}
+
+/* Link list
+ ----------------------------------------------- */
+
+.link-list {
+
+  a {
+    display:block;
+    padding:.75em 0;
+    text-decoration:none;
+
+    &:focus,
+    &:hover {
+
+    }
+
+  }
+
+}
+
+
+/* Border-list
+----------------------------------------------- */
+.border-list {
+  border-bottom:1px solid rgba(0,0,0,.5);
+  border-top:1px solid rgb(96,96,96);
+
+  > li {
+    border-top:1px solid rgba(0,0,0,.5);
+  }
+
+  > li {
+    border-bottom:1px solid rgb(96,96,96);
+  }
+
+  &.border-list--inv {
+    border-top-color:$color-white;
+
+    & > li {
+      border-bottom-color:$color-white;
+    }
+
+  }
+
+}
+
+/* Inline list
+----------------------------------------------- */
+.inline-list {
+  > li {
+    display:inline;
+  }
+}

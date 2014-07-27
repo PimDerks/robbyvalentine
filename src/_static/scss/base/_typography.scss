@@ -1,0 +1,286 @@
+/* Import fonts
+----------------------------------------------- */
+
+@font-face {
+  font-family: 'roboto_slab';
+  src: url('../assets/robotoslab_regular_macroman/fonts/RobotoSlab-Regular-webfont.eot');
+  src: url('../assets/robotoslab_regular_macroman/fonts/RobotoSlab-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/robotoslab_regular_macroman/RobotoSlab-Regular-webfont.woff') format('woff'),
+  url('../assets/fonts/robotoslab_regular_macroman/RobotoSlab-Regular-webfont.ttf') format('truetype'),
+  url('../assets/fonts/robotoslab_regular_macroman/RobotoSlab-Regular-webfont.svg#roboto_slabregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'roboto_slab_bold';
+  src: url('../assets/fonts/robotoslab_bold_macroman/RobotoSlab-Bold-webfont.eot');
+  src: url('../assets/fonts/robotoslab_bold_macroman/RobotoSlab-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/robotoslab_bold_macroman/RobotoSlab-Bold-webfont.woff') format('woff'),
+  url('../assets/fonts/robotoslab_bold_macroman/RobotoSlab-Bold-webfont.ttf') format('truetype'),
+  url('../assets/fonts/robotoslab_bold_macroman/RobotoSlab-Bold-webfont.svg#roboto_slabbold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+/* Responsive baseline
+----------------------------------------------- */
+
+body {
+  background-color:rgb(49,55,96);
+  color:rgb(202,202,202);
+  font-family:$font-roboto-slab;
+  font-size:75%; /* 12 */
+  font-weight:600;
+  line-height:1.5;
+  text-shadow:0 1px 0 rgb(0,0,0);
+}
+
+em {
+  color:$color-white;
+  font-style:normal;
+}
+
+@include respond-min($breakpoint-s){
+  body {
+    font-size:81.25%; /* 13 */
+  }
+}
+
+@include respond-min($breakpoint-m){
+  body {
+    font-size:87.5%; /* 14 */
+  }
+}
+
+@include respond-min($breakpoint-l){
+  body {
+    font-size:100%; /* 16 */
+  }
+}
+
+/* Add baseline class to the body for vertical rhythm
+----------------------------------------------- */
+
+.baseline {
+  background-image:linear-gradient(top, #D7D7D7 0%, #D7D7D7 50%, #F2F2F2 50%, #F2F2F2 100%)!important;
+  background-repeat:repeat;
+  background-size:100% 1.5em;
+  background-position:left top;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  ul,
+  ol,
+  dl,
+  label,
+  p {
+    background:rgba(255,0,0,.25);
+  }
+
+}
+
+/* Headings
+----------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.subtitle,
+.alpha,
+.beta,
+.gamma,
+.delta {
+  color:$color-primary;
+  font-family:$font-roboto-slab;
+  font-size:1em;
+  font-weight:bold;
+  @include rem(margin-bottom,.750rem);
+  margin-top:0;
+  position:relative;
+
+  a {
+    &:link,
+    &:hover,
+    &:focus,
+    &:active,
+    &:visited {
+      text-decoration:none;
+    }
+  }
+
+  &.header-section {
+    margin-bottom:1.5rem;
+    position:relative;
+  }
+
+  &.header-section--alt {
+    @include rem(padding-bottom,1.5rem);
+
+    &:after {
+      border-bottom:.25em solid $color-primary;
+      bottom:0;
+      content:"";
+      display:block;
+      left:0;
+      position:absolute;
+      @include rem(width,3rem);
+    }
+
+  }
+
+}
+
+.highlight,
+.subtitle {
+  color:$color-white;
+}
+
+.highlight--break {
+  display:block;
+}
+
+.subtitle {
+  @include rem(margin-top,-.75rem);
+
+  &.subtitle--glued {
+    margin-top:0;
+  }
+
+}
+
+.giga {
+  font-size:4em; /* 72/18 */
+  line-height:1.5em; /* 72/48 */
+}
+
+.mega {
+  font-size:3.3333em; /* 60/18 */
+  line-height:1.5em; /* 72/48 */
+}
+
+.kilo {
+  font-size:2.6667em; /* 48/18 */
+  line-height:1.5em; /* 72/48 */
+}
+
+h1,
+.alpha {
+  font-size:2em; /* 36/18 */
+  line-height:1.5em; /* 54/36 */
+}
+
+h2,
+.beta {
+  font-size:1.333em; /* 24/18 */
+  line-height:1.6875em; /* 40.5/24 */
+}
+
+h3,
+.gamma {
+  font-size:1em;
+  line-height:1.5em;
+}
+
+h4,
+.delta {
+  font-size:.78888em; /* 14/18 */
+  line-height:1.9286em; /* 27/14 */
+}
+
+/* Paragraph
+----------------------------------------------- */
+
+p {
+  margin:0 0 1.5em;
+}
+
+.small {
+  font-size:.77778em; /* 14/18 */
+  line-height:1.9285714em; /* 27/14 */
+  margin-bottom:1.9285714em;
+}
+
+.lead {
+  color:$color-white;
+  font-weight:bold;
+  font-size:1.333em; /* 24/18 */
+}
+
+.center {
+  text-align:center;
+}
+
+/* Links
+----------------------------------------------- */
+
+a {
+
+  &:link {
+    text-decoration:underline;
+  }
+
+  &:focus,
+  &:hover {
+    text-decoration:none;
+  }
+
+  &:visited {
+  }
+
+}
+
+/* Images
+----------------------------------------------- */
+
+img {
+  max-width:100%;
+  vertical-align:bottom;
+}
+
+.text-overflow:focus {
+  box-shadow:none;
+  outline-width:0;
+}
+
+/* Text selection
+----------------------------------------------- */
+
+::selection {
+  background:$color-primary;
+  color:$color-white;
+  
+}
+
+/* Links
+----------------------------------------------- */
+a {
+  color:$color-primary;
+
+  &:link,
+  &:visited {
+    text-decoration:underline;
+  }
+
+  &:focus,
+  &:hover,
+  &:active {
+    text-decoration:none;
+  }
+
+}
+
+/* Images
+----------------------------------------------- */
+img {
+  margin:0 0 1.5em;
+  max-width:100%;
+  vertical-align:bottom;
+}

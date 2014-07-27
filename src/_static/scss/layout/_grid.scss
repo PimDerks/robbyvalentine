@@ -1,0 +1,192 @@
+$grid-gutter:4em;
+
+.wrapper {
+  @include rem(margin-left,6rem);
+  @include rem(margin-right,6rem);
+  left:0;
+  right:0;
+}
+
+.wrapper__inner {
+  padding:0 $grid-gutter;
+
+  > *:last-child,
+  > *:last-child > *:last-child,
+  > *:last-child > *:last-child > *:last-child {
+    margin-bottom:0;
+  }
+
+}
+
+.wrapper__inner--tb {
+  padding-bottom:$grid-gutter;
+  padding-top:$grid-gutter;
+}
+
+.wrapper__inner--t {
+  padding-top:$grid-gutter;
+}
+
+.wrapper__inner--b {
+  padding-bottom:$grid-gutter;
+}
+
+.grid {
+
+  > .grid__item {
+    display:inline-block;
+    vertical-align:top;
+    width:100%;
+
+    > *:last-child,
+    > *:last-child > *:last-child,
+    > *:last-child > *:last-child > *:last-child {
+      margin-bottom:0;
+    }
+
+    &.grid__item--gutter {
+      padding:0 $grid-gutter/2;
+    }
+
+  }
+
+}
+
+.wrapper__inner > .grid,
+.grid--pull {
+  margin-left:-$grid-gutter/2;
+  margin-right:-$grid-gutter/2;
+}
+
+.grid--valign {
+  > .grid__item {
+    vertical-align:middle;
+  }
+}
+
+/* Grid
+---------------------------------------------------------*/
+
+
+  .grid {
+
+    .grid__item--1of1 { width:100%; margin-bottom:3em; &:last-child { margin-bottom:0 }}
+
+    .grid__item--1of2 { width:50%; }
+    .grid__item--1of3 { width:33.33%; }
+    .grid__item--2of3 { width:66.66%; }
+    .grid__item--1of4 { width:25%; }
+    .grid__item--2of4 { width:50%; }
+    .grid__item--3of4 { width:75%; }
+    .grid__item--1of5 { width:20%; }
+    .grid__item--2of5 { width:40%; }
+    .grid__item--3of5 { width:60%; }
+    .grid__item--4of5 { width:80%; }
+
+  }
+
+
+
+/* Grid S
+---------------------------------------------------------*/
+@include respond-min($breakpoint-s){
+
+  .grid {
+
+    .grid__item {
+      margin-bottom:0;
+    }
+
+    .grid__item--s-1of1 { width:100%; margin-bottom:3em; &:last-child { margin-bottom:0 }}
+    .grid__item--s-1of2 { width:50%; }
+    .grid__item--s-1of3 { width:33.33%; }
+    .grid__item--s-2of3 { width:66.66%; }
+    .grid__item--s-1of4 { width:25%; }
+    .grid__item--s-2of4 { width:50%; }
+    .grid__item--s-3of4 { width:75%; }
+    .grid__item--s-1of5 { width:20%; }
+    .grid__item--s-2of5 { width:40%; }
+    .grid__item--s-3of5 { width:60%; }
+    .grid__item--s-4of5 { width:80%; }
+
+  }
+
+}
+
+/* Grid M
+---------------------------------------------------------*/
+@include respond-min($breakpoint-m){
+
+  .grid {
+
+    .grid__item {
+      margin-bottom:0;
+    }
+
+    .grid__item--m-1of1 { width:100%; margin-bottom:3em; &:last-child { margin-bottom:0 }}
+    .grid__item--m-1of2 { width:50%; }
+    .grid__item--m-1of3 { width:33.33%; }
+    .grid__item--m-2of3 { width:66.66%; }
+    .grid__item--m-1of4 { width:25%; }
+    .grid__item--m-2of4 { width:50%; }
+    .grid__item--m-3of4 { width:75%; }
+    .grid__item--m-1of5 { width:20%; }
+    .grid__item--m-2of5 { width:40%; }
+    .grid__item--m-3of5 { width:60%; }
+    .grid__item--m-4of5 { width:80%; }
+
+  }
+
+}
+
+/* Grid L
+---------------------------------------------------------*/
+@include respond-min($breakpoint-l){
+
+  .grid {
+
+    .grid__item {
+      margin-bottom:0;
+    }
+
+    .grid__item--l-1of1 { width:100%; margin-bottom:3em; &:last-child { margin-bottom:0 }}
+    .grid__item--l-1of2 { width:50%; }
+    .grid__item--l-1of3 { width:33.33%; }
+    .grid__item--l-2of3 { width:66.66%; }
+    .grid__item--l-1of4 { width:25%; }
+    .grid__item--l-2of4 { width:50%; }
+    .grid__item--l-3of4 { width:75%; }
+    .grid__item--l-1of5 { width:20%; }
+    .grid__item--l-2of5 { width:40%; }
+    .grid__item--l-3of5 { width:60%; }
+    .grid__item--l-4of5 { width:80%; }
+
+  }
+
+}
+
+/* Grid XL
+---------------------------------------------------------*/
+@include respond-min($breakpoint-xl){
+
+  .grid {
+
+    .grid__item {
+      margin-bottom:0;
+    }
+
+    .grid__item--xl-1of1 { width:100%; margin-bottom:3em; &:last-child { margin-bottom:0 }}
+    .grid__item--xl-1of2 { width:50%; }
+    .grid__item--xl-1of3 { width:33.33%; }
+    .grid__item--xl-2of3 { width:66.66%; }
+    .grid__item--xl-1of4 { width:25%; }
+    .grid__item--xl-2of4 { width:50%; }
+    .grid__item--xl-3of4 { width:75%; }
+    .grid__item--xl-1of5 { width:20%; }
+    .grid__item--xl-2of5 { width:40%; }
+    .grid__item--xl-3of5 { width:60%; }
+    .grid__item--xl-4of5 { width:80%; }
+
+  }
+
+}

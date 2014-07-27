@@ -1,0 +1,80 @@
+/* Box-size everything
+----------------------------------------------- */
+*,
+*:after,
+*:before {
+  box-sizing:border-box;
+}
+
+/* Screenreader class for visually hiding content.
+----------------------------------------------- */
+
+.screenreader {
+  border:0;
+  clip:rect(0 0 0 0);
+  height:1px;
+  margin:-1px !important;
+  overflow:hidden;
+  padding:0 !important;
+  position:absolute;
+  width:1px;
+
+  &:before,
+  &:after {
+    display:none !important;
+  }
+
+}
+
+/* Floats
+----------------------------------------------- */
+.fl {
+  float:left;
+}
+
+.fr {
+  float:right;
+}
+
+/* Class for clearing floats
+----------------------------------------------- */
+
+.group:before,
+.group:after {
+  content:" ";
+  display:table;
+}
+
+.group:after {
+  clear: both;
+}
+
+/* Generic classes for removing bottom and/or top margins
+----------------------------------------------- */
+.glued {
+  margin-top:0 !important;
+}
+
+.stacked {
+  margin-bottom:0 !important;
+}
+
+/* Vertical align container
+----------------------------------------------- */
+.wrapper--cover {
+  height:100%;
+  position:absolute;
+  top:0;
+}
+
+.va-container {
+  display:table;
+  height:100%;
+  width:100%;
+
+  .va-container-inner {
+    display:table-cell;
+    vertical-align:middle;
+  }
+
+}

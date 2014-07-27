@@ -1,0 +1,23 @@
+<nav class="page-nav">
+
+    <h2 class="screenreader">Hoofdnavigatie</h2>
+    <ul class="main-navigation" id="main-navigation">
+
+        <li {% if page.id == 'home'%}class="current"{% endif %}>
+            <a href="index.html">Home</a>
+        </li>
+        <li {% if page.id == 'bizarro'%}class="current"{% endif %}>
+        <a href="bizarro-world.html">Bizarro World</a>
+        </li>
+        <li {% if page.id == 'live'%}class="current"{% endif %}>
+            <a href="live.html">Live</a>
+        </li>
+        <li {% if page.id == 'music'%}class="current"{% endif %}>
+            <a href="music.html">Music</a>
+        </li>
+        <li {% if page.id == 'contact'%}class="current"{% endif %}>
+            <a href="contact.html">Contact</a>
+        </li>
+    </ul>
+
+</nav>
