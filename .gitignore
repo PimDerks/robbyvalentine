@@ -1,0 +1,16 @@
+# build cache
+# --------------------
+.sass-cache
+.grunt/
+node_modules/
+.idea
+
+# static build results
+# --------------------
+tmp/
+
+# static site
+# --------------------
+_site
+www
+*.mp3
