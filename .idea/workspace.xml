@@ -26,7 +26,7 @@
       <file leaf-file-name="live.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/live.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="2" selection-start="772" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1110">
+            <state line="28" column="2" selection-start="772" selection-end="774" vertical-scroll-proportion="-0.0" vertical-offset="420" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="bizarro-world.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bizarro-world.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="176" column="13" selection-start="8879" selection-end="8879" vertical-scroll-proportion="0.84615386" vertical-offset="2145" max-vertical-offset="4500">
+            <state line="93" column="27" selection-start="4779" selection-end="4779" vertical-scroll-proportion="0.22018349" vertical-offset="1323" max-vertical-offset="2205">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="main-navigation.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_includes/navigation/main-navigation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="6" selection-start="775" selection-end="775" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="420">
+            <state line="8" column="45" selection-start="294" selection-end="294" vertical-scroll-proportion="-1.6666666" vertical-offset="80" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="_layout.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_static/scss/layout/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="19" selection-start="630" selection-end="630" vertical-scroll-proportion="-5.755102" vertical-offset="333" max-vertical-offset="2025">
+            <state line="41" column="19" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="2025">
               <folding />
             </state>
           </provider>
@@ -98,16 +98,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="403" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="375">
+            <state line="12" column="0" selection-start="403" selection-end="469" vertical-scroll-proportion="-5.5" vertical-offset="48" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="live.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/live.html">
+      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="4" selection-start="4124" selection-end="4129" vertical-scroll-proportion="0.0" vertical-offset="1005" max-vertical-offset="2520">
+            <state line="0" column="0" selection-start="0" selection-end="51" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -136,17 +136,17 @@
         <option value="$PROJECT_DIR$/www/_static/css/styles.ie.merged.css" />
         <option value="$PROJECT_DIR$/www/_static/css/styles.ie.prefixed.css" />
         <option value="$PROJECT_DIR$/www/_static/css/styles.prefixed.css" />
-        <option value="$PROJECT_DIR$/src/_includes/navigation/main-navigation.html" />
         <option value="$PROJECT_DIR$/src/_static/scss/layout/_layout.scss" />
         <option value="$PROJECT_DIR$/src/bizarro-world.html" />
+        <option value="$PROJECT_DIR$/src/_includes/navigation/main-navigation.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="192" />
-    <option name="y" value="84" />
+    <option name="x" value="35" />
+    <option name="y" value="22" />
     <option name="width" value="1405" />
-    <option name="height" value="1221" />
+    <option name="height" value="799" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -188,7 +188,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rv-onepage" />
+              <option name="myItemId" value="rv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -198,117 +198,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rv-onepage" />
+              <option name="myItemId" value="rv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rv-onepage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rv-onepage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rv-onepage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rv-onepage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rv-onepage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rv-onepage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rv-onepage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rv-onepage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="navigation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rv-onepage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rv-onepage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -326,6 +220,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -334,14 +236,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -367,14 +261,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="192" y="84" width="1405" height="1221" extended-state="0" />
+    <frame x="35" y="22" width="1405" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3887375" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38880706" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24891461" sideWeight="0.6112625" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24891461" sideWeight="0.61119294" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -418,37 +312,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="4" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.0" vertical-offset="1034" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="89" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="94" column="4" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.0" vertical-offset="1034" max-vertical-offset="1785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="2159" selection-end="2159" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/live.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="4" selection-start="4124" selection-end="4129" vertical-scroll-proportion="0.0" vertical-offset="1005" max-vertical-offset="2520">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="403" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="375">
-          <folding />
-        </state>
+        <state line="73" column="0" selection-start="2159" selection-end="2159" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/live.html">
@@ -486,23 +355,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_includes/navigation/main-navigation.html">
+    <entry file="file://$PROJECT_DIR$/src/_static/scss/layout/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="6" selection-start="775" selection-end="775" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="420">
+        <state line="41" column="19" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="2025">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_static/scss/layout/_layout.scss">
+    <entry file="file://$PROJECT_DIR$/www/live.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="19" selection-start="630" selection-end="630" vertical-scroll-proportion="-5.755102" vertical-offset="333" max-vertical-offset="2025">
+        <state line="83" column="4" selection-start="4124" selection-end="4129" vertical-scroll-proportion="3.8073394" vertical-offset="0" max-vertical-offset="2520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="403" selection-end="469" vertical-scroll-proportion="-5.5" vertical-offset="48" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="51" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_includes/navigation/main-navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="45" selection-start="294" selection-end="294" vertical-scroll-proportion="-1.6666666" vertical-offset="80" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bizarro-world.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="13" selection-start="8879" selection-end="8879" vertical-scroll-proportion="0.84615386" vertical-offset="2145" max-vertical-offset="4500">
+        <state line="93" column="27" selection-start="4779" selection-end="4779" vertical-scroll-proportion="0.22018349" vertical-offset="1323" max-vertical-offset="2205">
           <folding />
         </state>
       </provider>
