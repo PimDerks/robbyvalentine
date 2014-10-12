@@ -31,8 +31,7 @@ module.exports = function(grunt) {
                     style:'nested'
                 },
                 files:{
-                    '<%= env.temp %>/css/styles.merged.css':'<%= env.static %>/scss/styles.scss',
-                    '<%= env.temp %>/css/styles.ie.merged.css':'<%= env.static %>/scss/styles.ie.scss'
+                    '<%= env.temp %>/css/styles.merged.css':'<%= env.static %>/scss/styles.scss'
                 }
             }
         },
@@ -48,13 +47,6 @@ module.exports = function(grunt) {
             }
         },
         autoprefixer:{
-            ie:{
-                options:{
-                    browsers:['ie 8']
-                },
-                src:'<%= env.temp %>/css/styles.ie.merged.css',
-                dest:'<%= env.temp %>/css/styles.ie.prefixed.css'
-            },
             modern:{
                 options:{
                     browsers:['last 2 versions', 'ie 9']
@@ -66,8 +58,7 @@ module.exports = function(grunt) {
         cssmin:{
             dev:{
                 files:{
-                    '<%= env.temp %>/css/styles.min.css':'<%= autoprefixer.modern.dest %>',
-                    '<%= env.temp %>/css/styles.ie.min.css':'<%= autoprefixer.ie.dest %>'
+                    '<%= env.temp %>/css/styles.min.css':'<%= autoprefixer.modern.dest %>'
                 }
             }
         },
