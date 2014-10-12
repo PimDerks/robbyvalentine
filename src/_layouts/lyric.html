@@ -1,0 +1,48 @@
+{% include document/document-open.html %}
+
+    {% include document/document-head.html %}
+
+        <body class="">
+
+            {% include layout/gridset.html %}
+
+            {% include layout/header.html %}
+
+            <section class="page-content section">
+
+                <div class="wrapper">
+
+                    <h1>{{ page.title }}</h1>
+
+                    <h2 class="screenreader">Lyrics</h2>
+
+                    {{ content }}
+
+                    <h2>Credits</h2>
+
+                    <dl>
+                        <dt>Author</dt>
+                        <dd>{{ page.author }}</dd>
+                        <dt>Written</dt>
+                        <dd>{{ page.written }}</dd>
+                        <dt>Recorded</dt>
+                        <dd>{{ page.recorded }}</dd>
+                        <dt>Appears on</dt>
+                        {% for appears in page.appears %}
+                            <dd>{{ appears }}</dd>
+                        {% endfor %}
+                    </dl>
+
+                </div>
+
+            </section>
+
+            {% include navigation/main-navigation.html %}
+
+            {% include layout/footer.html %}
+
+        </body>
+
+    {% include document/document-scripts.html %}
+
+{% include document/document-close.html %}
