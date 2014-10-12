@@ -2,13 +2,23 @@
 
     {% include document/document-head.html %}
 
-        <body>
+        <body class="">
+
+            {% include layout/gridset.html %}
 
             {% include layout/header.html %}
 
-            <div class="content">
-                {{ content }}
-            </div>
+            <section class="page-content section">
+
+                <div class="wrapper">
+
+                    {{ content }}
+
+                </div>
+
+            </section>
+
+            {% include navigation/main-navigation.html %}
 
             {% include layout/footer.html %}
 

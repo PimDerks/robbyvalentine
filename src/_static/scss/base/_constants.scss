@@ -1,16 +1,16 @@
 /* Fonts
 ----------------------------------------*/
-$font-arial: 'Arial Black', Arial, 'sans serif';
-$font-roboto-slab: roboto_slab,'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+$font-serif:'Playfair Display', 'Georgia', 'Times New Roman', serif;
+$font-valentine: 'Trajan','Georgia','Times New Roman',serif;
 
 /* Breakpoints
 ----------------------------------------*/
 
-$breakpoint-s:400px;
-$breakpoint-m:600px;
-$breakpoint-l:800px;
-$breakpoint-xl:1000px;
-$breakpoint-xxl:1200px;
+$breakpoint-xs:20em; /* 320 */
+$breakpoint-s:30em; /* 480 */
+$breakpoint-m:48em; /* 768 */
+$breakpoint-l:61.85em; /* 990 */
+$breakpoint-xl:80em; /* 1280 */
 
 /* Colors
 ----------------------------------------*/
@@ -20,3 +20,29 @@ $color-white: rgb(255,255,255);
 $color-primary: rgb(255,228,0);
 $color-secondary: rgb(0,255,0);
 $color-tertiary: rgb(0,0,255);
+
+$color-alpha:rgb(255,228,0); /* 100% */
+$color-beta:rgb(158,127,5); /* 60% */
+$color-gamma:rgb(109,88,7); /* 40% */
+$color-delta:rgb(61,50,10); /* 20% */
+
+/* Font-scale
+----------------------------------------*/
+
+$font-size-alpha:2.125rem; /* 34/16 */
+$line-height-alpha:3rem;
+
+$font-size-beta:1.75rem; /* 28/16 */
+$line-height-beta:2.25rem; /* 36/16 */
+
+$font-size-gamma:1.5rem; /* 24/16 */
+$line-height-gamma:2.25rem; /* 36/16 */
+
+$font-size-delta:1.125rem; /* 18/16 */
+$line-height-delta:1.5rem; /* 24/16 */
+
+$font-size-small:.875rem; /* 14/16 */
+$line-height-small:1.5rem; /* 14/24 */
+
+$font-size-xsmall:.75rem; /* 12/16 */
+$line-height-xsmall:1.5rem; /* 12/24 */

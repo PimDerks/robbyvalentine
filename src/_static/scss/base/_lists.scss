@@ -3,18 +3,45 @@
 ul,
 ol,
 dl {
+  list-style:none none outside;
   margin:0 0 1.5em;
 }
 
 /* Unordered list
 ----------------------------------------------- */
-ul {
+ul,
+ol {
+  padding:0;
+
+  > li {
+    padding-left:1rem;
+    position:relative;
+
+    &:before {
+      color:$color-primary;
+      content:"•";
+      left:0;
+      position:absolute;
+      top:0;
+    }
+
+  }
 
 }
 
 /* Ordered list
 ----------------------------------------------- */
 ol {
+  counter-reset:li;
+
+  > li {
+    counter-increment:li;
+
+    &:before {
+      content:counter(li);
+    }
+
+  }
 
 }
 
@@ -31,6 +58,15 @@ dl {
 .reset-list {
   list-style:none none outside;
   padding-left:0;
+  > li {
+    position:static;
+
+    &:before {
+      content:"";
+      display:none;
+    }
+
+  }
 }
 
 /* Block list

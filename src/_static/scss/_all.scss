@@ -4,6 +4,7 @@
 @import 'mixins/respond';
 @import 'mixins/helpers';
 @import 'mixins/rem';
+@import 'mixins/gridset';
 
 /* Import core styles
 =============================================================================*/
@@ -15,6 +16,10 @@
 
 /* Import layout styles
 =============================================================================*/
-@import 'layout/gridset';
 @import 'layout/layout';
 @import 'layout/grid';
+
+/* Import components
+=============================================================================*/
+@import 'components/navigation';
+@import 'components/misc';
