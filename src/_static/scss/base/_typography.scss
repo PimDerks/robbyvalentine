@@ -2,25 +2,9 @@
 ----------------------------------------------- */
 
 @font-face {
-  font-family: 'roboto_slab';
-  src: url('../assets/robotoslab_regular_macroman/fonts/RobotoSlab-Regular-webfont.eot');
-  src: url('../assets/robotoslab_regular_macroman/fonts/RobotoSlab-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../assets/fonts/robotoslab_regular_macroman/RobotoSlab-Regular-webfont.woff') format('woff'),
-  url('../assets/fonts/robotoslab_regular_macroman/RobotoSlab-Regular-webfont.ttf') format('truetype'),
-  url('../assets/fonts/robotoslab_regular_macroman/RobotoSlab-Regular-webfont.svg#roboto_slabregular') format('svg');
+  font-family: 'trajan';
+  src: url('../assets/fonts/trajan.woff') format('woff');
   font-weight: normal;
-  font-style: normal;
-
-}
-
-@font-face {
-  font-family: 'roboto_slab_bold';
-  src: url('../assets/fonts/robotoslab_bold_macroman/RobotoSlab-Bold-webfont.eot');
-  src: url('../assets/fonts/robotoslab_bold_macroman/RobotoSlab-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../assets/fonts/robotoslab_bold_macroman/RobotoSlab-Bold-webfont.woff') format('woff'),
-  url('../assets/fonts/robotoslab_bold_macroman/RobotoSlab-Bold-webfont.ttf') format('truetype'),
-  url('../assets/fonts/robotoslab_bold_macroman/RobotoSlab-Bold-webfont.svg#roboto_slabbold') format('svg');
-  font-weight: bold;
   font-style: normal;
 
 }
@@ -29,35 +13,44 @@
 ----------------------------------------------- */
 
 body {
-  background-color:rgb(49,55,96);
-  color:rgb(202,202,202);
-  font-family:$font-roboto-slab;
+  color:rgba($color-white,.8);
+  font-family:$font-serif;
   font-size:75%; /* 12 */
-  font-weight:600;
   line-height:1.5;
   text-shadow:0 1px 0 rgb(0,0,0);
 }
 
 em {
-  color:$color-white;
-  font-style:normal;
+
 }
 
-@include respond-min($breakpoint-s){
+@include respond-min($breakpoint-xs){
   body {
     font-size:81.25%; /* 13 */
   }
 }
 
-@include respond-min($breakpoint-m){
+@include respond-min($breakpoint-s){
   body {
     font-size:87.5%; /* 14 */
+  }
+}
+
+@include respond-min($breakpoint-m){
+  body {
+    font-size:93.75%; /* 15 */
   }
 }
 
 @include respond-min($breakpoint-l){
   body {
     font-size:100%; /* 16 */
+  }
+}
+
+@include respond-min($breakpoint-xl){
+  body {
+    font-size:112.5%; /* 18 */
   }
 }
 
@@ -93,106 +86,44 @@ h2,
 h3,
 h4,
 h5,
-.subtitle,
 .alpha,
 .beta,
 .gamma,
 .delta {
   color:$color-primary;
-  font-family:$font-roboto-slab;
-  font-size:1em;
-  font-weight:bold;
-  @include rem(margin-bottom,.750rem);
+  font-family:$font-valentine;
+  font-weight:100;
+  margin-bottom:1.5rem;
   margin-top:0;
   position:relative;
-
-  a {
-    &:link,
-    &:hover,
-    &:focus,
-    &:active,
-    &:visited {
-      text-decoration:none;
-    }
-  }
-
-  &.header-section {
-    margin-bottom:1.5rem;
-    position:relative;
-  }
-
-  &.header-section--alt {
-    @include rem(padding-bottom,1.5rem);
-
-    &:after {
-      border-bottom:.25em solid $color-primary;
-      bottom:0;
-      content:"";
-      display:block;
-      left:0;
-      position:absolute;
-      @include rem(width,3rem);
-    }
-
-  }
-
-}
-
-.highlight,
-.subtitle {
-  color:$color-white;
-}
-
-.highlight--break {
-  display:block;
-}
-
-.subtitle {
-  @include rem(margin-top,-.75rem);
-
-  &.subtitle--glued {
-    margin-top:0;
-  }
-
-}
-
-.giga {
-  font-size:4em; /* 72/18 */
-  line-height:1.5em; /* 72/48 */
-}
-
-.mega {
-  font-size:3.3333em; /* 60/18 */
-  line-height:1.5em; /* 72/48 */
-}
-
-.kilo {
-  font-size:2.6667em; /* 48/18 */
-  line-height:1.5em; /* 72/48 */
 }
 
 h1,
 .alpha {
-  font-size:2em; /* 36/18 */
-  line-height:1.5em; /* 54/36 */
+  color:$color-primary;
+  font-size:$font-size-alpha;
+  line-height:$line-height-alpha;
 }
 
 h2,
 .beta {
-  font-size:1.333em; /* 24/18 */
-  line-height:1.6875em; /* 40.5/24 */
+  color:$color-alpha;
+  font-size:$font-size-beta;
+  line-height:$line-height-beta;
 }
 
 h3,
 .gamma {
-  font-size:1em;
-  line-height:1.5em;
+  color:$color-alpha;
+  font-size:$font-size-gamma;
+  line-height:$line-height-gamma;
 }
 
 h4,
-.delta {
-  font-size:.78888em; /* 14/18 */
-  line-height:1.9286em; /* 27/14 */
+.delta{
+  color:$color-alpha;
+  font-size:$font-size-delta;
+  line-height:$line-height-delta;
 }
 
 /* Paragraph
@@ -203,15 +134,26 @@ p {
 }
 
 .small {
-  font-size:.77778em; /* 14/18 */
-  line-height:1.9285714em; /* 27/14 */
-  margin-bottom:1.9285714em;
+  font-size:$font-size-small;
+  line-height:$line-height-small;
+}
+
+.xsmall {
+  font-size:$font-size-xsmall;
+  line-height:$line-height-xsmall;
 }
 
 .lead {
-  color:$color-white;
-  font-weight:bold;
-  font-size:1.333em; /* 24/18 */
+  color:rgba($color-white,.9);
+  font-size:$font-size-delta;
+  font-style:italic;
+  line-height:$line-height-delta;
+
+  @include respond-min($breakpoint-m){
+    font-size:$font-size-gamma;
+    line-height:$line-height-gamma;
+  }
+
 }
 
 .center {
@@ -235,6 +177,18 @@ a {
   &:visited {
   }
 
+}
+
+/* HR
+----------------------------------------------- */
+
+hr {
+  border-width:1px 0;
+  border-style:solid;
+  border-bottom-color:rgba($color-black,.5);
+  border-top-color:rgba($color-white,.5);
+  height:1px;
+  margin:1.5rem 0;
 }
 
 /* Images
@@ -283,4 +237,77 @@ img {
   margin:0 0 1.5em;
   max-width:100%;
   vertical-align:bottom;
+}
+
+/* Blockquote
+----------------------------------------------- */
+blockquote {
+  color:$color-white;
+  font-size:$font-size-delta;
+  font-style:italic;
+  line-height:$line-height-delta;
+  margin:0 0 1.5rem;
+  quotes: "“" "”" "‘" "’";
+
+  @include respond-min($breakpoint-m){
+    font-size:$font-size-gamma;
+    line-height:$line-height-gamma;
+  }
+
+  &:before {
+    content:open-quote;
+  }
+
+  &:after {
+    content:close-quote;
+  }
+
+}
+
+.blockquote {
+  background:rgba(0,0,0,.5);
+  border-left:.25rem solid $color-primary;
+  margin-bottom:1.5rem;
+  padding:1.5rem;
+
+  &:before,
+  &:after {
+
+  }
+
+  blockquote {
+    margin:0 0 1.5rem;
+  }
+
+  cite {
+    color:$color-primary;
+    font-family:$font-valentine;
+    font-style:normal;
+  }
+
+}
+
+/* DL
+----------------------------------------------- */
+dl {
+
+  dt {
+    color:$color-primary;
+    font-family:$font-valentine;
+    font-size:$font-size-xsmall;
+    line-height:$line-height-xsmall;
+    text-transform:uppercase;
+  }
+
+  dd {
+    font-family:$font-valentine;
+    margin-left:0;
+    padding-left:0;
+
+    + dt {
+      margin-top:1.5rem;
+    }
+
+  }
+
 }
