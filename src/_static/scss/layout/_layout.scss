@@ -12,7 +12,38 @@ html {
 }
 
 body {
+  background:transparent url("../assets/img/bg1.jpg") no-repeat top center;
   border-top:.25em solid $color-primary;
+  height:auto;
+}
+
+.img,
+.aside {
+  @include gs-span(da, 1, 3, false, false);
+}
+
+.content {
+  @include gs-span(da, 4, 8, false, false);
+  @include gs-pad(da, padinfull);
+  background:rgba(0,0,0,.75);
+  padding-bottom:3rem;
+  padding-top:3rem;
+}
+
+.box {
+  position:relative;
+}
+
+.box--primary {
+  background:rgba($color-primary,.25);
+}
+
+.box--light {
+  background:rgba($color-black,.25);
+}
+
+.box--inner {
+  padding:3rem;
 }
 
 .section .wrapper {
@@ -29,6 +60,7 @@ body {
 
 .page-content {
   min-height:100%;
+  padding-top:21rem;
 }
 
 /* Page footer

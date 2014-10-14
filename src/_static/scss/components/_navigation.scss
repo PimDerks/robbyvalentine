@@ -45,15 +45,16 @@
 @include respond-min($breakpoint-m){
 
   .page-nav {
-    background:rgba(0,0,0,.75);
-    border-bottom:.25em solid $color-primary;
-    left:0;
-    position:fixed;
-    top:0;
+    position:absolute;
+    top:0rem;
     width:100%;
   }
 
   .main-navigation {
+    @include gs-span(da, 1, 8, false, false);
+    /* @include gs-pad(da, padfull); */
+    background:rgba(0,0,0,.75);
+    border-bottom:.25em solid $color-primary;
     display:table;
     font-size:$font-size-gamma;
     line-height:$line-height-gamma;

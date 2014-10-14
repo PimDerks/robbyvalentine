@@ -3,5 +3,6 @@ img {
   background:$color-black;
   border:.5rem solid $color-white;
   box-shadow:0 0 .5em rgba(0,0,0,.5);
+  box-sizing:border-box;
   margin-bottom:1.5rem;
 }

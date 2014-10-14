@@ -10,28 +10,42 @@
 
             <section class="page-content section">
 
-                <div class="wrapper">
+                <div class="wrapper group">
 
-                    <h1>{{ page.title }}</h1>
+                    <div class="content">
 
-                    <h2 class="screenreader">Lyrics</h2>
+                        <h1>{{ page.title }}</h1>
 
-                    {{ content }}
+                        <h2 class="screenreader">Lyrics</h2>
 
-                    <h2>Credits</h2>
+                        {{ content }}
 
-                    <dl>
-                        <dt>Author</dt>
-                        <dd>{{ page.author }}</dd>
-                        <dt>Written</dt>
-                        <dd>{{ page.written }}</dd>
-                        <dt>Recorded</dt>
-                        <dd>{{ page.recorded }}</dd>
-                        <dt>Appears on</dt>
-                        {% for appears in page.appears %}
-                            <dd>{{ appears }}</dd>
-                        {% endfor %}
-                    </dl>
+                    </div>
+
+                    <div class="aside">
+
+                        <img src="/_media/ytmd.jpg" alt="" />
+
+                        <div class="box box--light box--inner">
+
+                            <h2>Credits</h2>
+
+                            <dl>
+                                <dt>Author</dt>
+                                <dd>{{ page.author }}</dd>
+                                <dt>Written</dt>
+                                <dd>{{ page.written }}</dd>
+                                <dt>Recorded</dt>
+                                <dd>{{ page.recorded }}</dd>
+                                <dt>Appears on</dt>
+                                {% for appears in page.appears %}
+                                    <dd>{{ appears }}</dd>
+                                {% endfor %}
+                            </dl>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
