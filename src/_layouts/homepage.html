@@ -2,7 +2,11 @@
 
     {% include document/document-head.html %}
 
-        <body class="">
+        {% if page.bg %}
+            <body style="background-image:url('{{ page.bg }}');">
+        {% else %}
+            <body>
+        {% endif %}
 
             {% include layout/gridset.html %}
 

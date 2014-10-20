@@ -1,21 +1,25 @@
 .main-navigation {
   border-bottom:1px solid $color-delta;
+  border-top:1px solid $color-delta;
   font-family:$font-valentine;
   font-size:$font-size-delta;
   line-height:$line-height-delta;
   list-style:none none outside;
-  margin-bottom:0;
+  margin-bottom:3rem;
   padding-left:0;
   text-align:center;
 
   li {
+    border-bottom:1px solid $color-delta;
     border-top:1px solid $color-delta;
     display:block;
+    margin-top:-1px;
     padding:0;
   }
 
-  .main-navigation__current {
-
+  .current,
+  .current a {
+    color:$color-primary;
   }
 
   a,
@@ -28,16 +32,6 @@
 
   span {
     color:$color-primary;
-  }
-
-}
-
-@include respond-min-max($breakpoint-s,$breakpoint-m){
-
-  .main-navigation {
-    columns:2;
-    column-gap:0;
-    text-align:left;
   }
 
 }
@@ -56,8 +50,7 @@
   .main-navigation {
     @include gs-span(da, 1, 8, false, false);
     display:table;
-    font-size:$font-size-gamma;
-    line-height:$line-height-gamma;
+    margin-bottom:0;
     width:100%;
 
     li {
@@ -65,6 +58,15 @@
       display:table-cell;
     }
 
+  }
+
+}
+
+@include respond-min($breakpoint-xl){
+
+  .main-navigation {
+    font-size:$font-size-gamma;
+    line-height:$line-height-gamma;
   }
 
 }

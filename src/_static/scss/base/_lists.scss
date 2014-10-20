@@ -23,6 +23,7 @@ ol {
       left:0;
       position:absolute;
       top:0;
+      text-align:right;
     }
 
   }
@@ -36,9 +37,11 @@ ol {
 
   > li {
     counter-increment:li;
+    padding-left:2rem;
 
     &:before {
-      content:counter(li);
+      content:counter(li) '.';
+      width:1.5rem;
     }
 
   }
@@ -126,13 +129,15 @@ dl {
     border-bottom:1px solid rgb(96,96,96);
   }
 
-  &.border-list--inv {
-    border-top-color:$color-white;
+  &.border-list--block {
+    > li {
+      padding-bottom:.75em;
+      padding-top:.75em;
 
-    & > li {
-      border-bottom-color:$color-white;
+      &:before {
+        top:.75em;
+      }
     }
-
   }
 
 }

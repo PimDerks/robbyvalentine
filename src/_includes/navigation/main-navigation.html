@@ -2,23 +2,20 @@
     <div class="wrapper">
         <h2 class="screenreader">Hoofdnavigatie</h2>
         <ul class="reset-list main-navigation" id="main-navigation">
-            <li>
-                <a href="/">News</a>
+            <li {% if page.id == 'bizarro-world' %}class="current"{% endif %}>
+                <a href="/bizarro-world">Bizarro World</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li {% if page.id == 'the-queen-album' %}class="current"{% endif %}>
+                <a href="/the-queen-album">The Queen Album</a>
             </li>
-            <li>
-                <a href="/">Music</a>
+            <li {% if page.id == 'live'%}class="current"{% endif %}>
+                <a href="/live">Live</a>
             </li>
-            <li>
-                <a href="/">Live</a>
+            <li {% if page.id == 'music'%}class="current"{% endif %}>
+                <a href="/music">Music</a>
             </li>
-            <li>
-                <a href="/">Press</a>
-            </li>
-            <li>
-                <a href="/">Contact</a>
+            <li {% if page.id == 'contact'%}class="current"{% endif %}>
+                <a href="/contact">Contact</a>
             </li>
         </ul>
     </div>
