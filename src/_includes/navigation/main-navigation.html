@@ -3,19 +3,19 @@
         <h2 class="screenreader">Hoofdnavigatie</h2>
         <ul class="reset-list main-navigation" id="main-navigation">
             <li {% if page.id == 'bizarro-world' %}class="current"{% endif %}>
-                <a href="/bizarro-world">Bizarro World</a>
+                <a href="{{ site.path}}/bizarro-world">Bizarro World</a>
             </li>
             <li {% if page.id == 'the-queen-album' %}class="current"{% endif %}>
-                <a href="/the-queen-album">The Queen Album</a>
+                <a href="{{ site.path}}/the-queen-album">The Queen Album</a>
             </li>
             <li {% if page.id == 'live'%}class="current"{% endif %}>
-                <a href="/live">Live</a>
+                <a href="{{ site.path}}/live">Live</a>
             </li>
             <li {% if page.id == 'music'%}class="current"{% endif %}>
-                <a href="/music">Music</a>
+                <a href="{{ site.path}}/music">Music</a>
             </li>
             <li {% if page.id == 'contact'%}class="current"{% endif %}>
-                <a href="/contact">Contact</a>
+                <a href="{{ site.path}}/contact">Contact</a>
             </li>
         </ul>
     </div>

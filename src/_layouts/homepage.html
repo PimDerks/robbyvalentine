@@ -3,7 +3,7 @@
     {% include document/document-head.html %}
 
         {% if page.bg %}
-            <body style="background-image:url('{{ page.bg }}');">
+            <body style="background-image:url('{{ site.path }}{{ page.bg }}');">
         {% else %}
             <body>
         {% endif %}
@@ -17,7 +17,7 @@
                 <div class="wrapper group">
 
                     <div class="img">
-                        <img src="http://www.dummyimage.com/500x500" alt="" />
+                        <img src="{{ site.path }}{{ page.img }}" alt="" />
                     </div>
                     <div class="content">
                         {{ content }}

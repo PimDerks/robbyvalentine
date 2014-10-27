@@ -2,5 +2,6 @@ source: ./src
 relative_permalinks: false
 permalink: /nieuws/:title
 include: ['_static']
+path1: http://www.marliesonline.nl/robby
 paginate: 6
 paginate_path: /nieuws/pagina-:num

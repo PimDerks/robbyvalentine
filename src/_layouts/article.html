@@ -2,7 +2,11 @@
 
     {% include document/document-head.html %}
 
-        <body class="">
+        {% if page.bg %}
+            <body style="background-image:url('{{ site.path }}{{ page.bg }}');">
+        {% else %}
+            <body>
+        {% endif %}
 
             {% include layout/gridset.html %}
 
@@ -21,7 +25,7 @@
 
                     <div class="aside">
 
-                        <img src="/_media/ytmd.jpg" alt="" />
+                        <img src="{{ site.path }}{{ page.img }}" alt="" />
 
                     </div>
 

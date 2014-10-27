@@ -147,6 +147,21 @@ body {
 
 }
 
+@include respond-min($breakpoint-xl){
+
+  .page-logo {
+
+    img {
+      margin-top:4.5rem;
+      width:gs-width(db,1,1,false,true);
+    }
+
+  }
+
+
+}
+
+
 /* Page content
 ---------------------------------------------------------*/
 

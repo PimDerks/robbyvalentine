@@ -2,7 +2,12 @@
 
     {% include document/document-head.html %}
 
-        <body class="">
+        {% if page.bg %}
+            <body style="background-image:url('{{ site.path }}{{ page.bg }}');">
+
+        {% else %}
+            <body>
+        {% endif %}
 
             {% include layout/gridset.html %}
 
@@ -13,21 +18,13 @@
                 <div class="wrapper group">
 
                     <header class="header">
-                        <h1>You're Tearing Me Down</h1>
-                        <h2>Taken from Bizarro World</h2>
+                        <h1>{{ page.title }}</h1>
+                        <h2>{{ page.subtitle }}</h2>
                     </header>
-
-                    <div class="content">
-
-                        <h2>Lyrics</h2>
-
-                        {{ content }}
-
-                    </div>
 
                     <div class="aside">
 
-                        <img src="/_media/ytmd.jpg" alt="" />
+                        <img src="{{ site.path }}{{ page.img }}" alt="" />
 
                         <div class="box box--light box--inner">
 
@@ -36,17 +33,25 @@
                             <dl>
                                 <dt>Author</dt>
                                 <dd>{{ page.author }}</dd>
-                                <dt>Written</dt>
-                                <dd>{{ page.written }}</dd>
-                                <dt>Recorded</dt>
+                                <!-- <dt>Written</dt>
+                                <dd>{{ page.written }}</dd> -->
+                                <dt>Released</dt>
                                 <dd>{{ page.recorded }}</dd>
                                 <dt>Appears on</dt>
                                 {% for appears in page.appears %}
-                                    <dd>{{ appears }}</dd>
+                                <dd>{{ appears }}</dd>
                                 {% endfor %}
                             </dl>
 
                         </div>
+
+                    </div>
+
+                    <div class="content">
+
+                        <h2>Lyrics</h2>
+
+                        {{ content }}
 
                     </div>
 
