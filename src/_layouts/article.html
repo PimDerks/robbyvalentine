@@ -1,0 +1,50 @@
+{% include document/document-open.html %}
+
+    {% include document/document-head.html %}
+
+        {% if page.bg %}
+            <body style="background-image:url('{{ site.path }}{{ page.bg }}');">
+        {% else %}
+            <body>
+        {% endif %}
+
+            {% include layout/gridset.html %}
+
+            {% include layout/header.html %}
+
+            <section class="page-content section">
+
+                <div class="wrapper group">
+
+                    <header class="header">
+                        <h1>{{ page.title }}</h1>
+                        {% if page.subtitle %}
+                            <h2>{{ page.subtitle }}</h2>
+                        {% endif %}
+                    </header>
+
+                    <div class="aside">
+
+                        <img src="{{ site.path }}{{ page.img }}" alt="" />
+
+                    </div>
+
+                    <div class="content">
+
+                        {{ content }}
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            {% include navigation/main-navigation.html %}
+
+            {% include layout/footer.html %}
+
+        </body>
+
+    {% include document/document-scripts.html %}
+
+{% include document/document-close.html %}

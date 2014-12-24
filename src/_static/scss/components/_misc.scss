@@ -6,3 +6,18 @@ img {
   box-sizing:border-box;
   margin-bottom:1.5rem;
 }
+
+.tracklist {
+  li {
+    position:relative;
+    a {
+      font-size:$font-size-small;
+      line-height:$line-height-small;
+      margin-top:-.75rem;
+      position:absolute;
+      right:.75rem;
+      text-decoration:none;
+      top:50%;
+    }
+  }
+}
