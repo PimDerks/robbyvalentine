@@ -2,7 +2,7 @@
  * RequireJS Configuration
  */
 requirejs.config({
-    baseUrl:'/_static/js/rv',
+    baseUrl:'http://www.marliesonline.nl/robby/_static/js/rv',
     paths:{
         'conditioner':'../vendor/rikschennink/conditioner',
         'conditioner/tests':'../vendor/rikschennink/tests'
@@ -14,7 +14,7 @@ requirejs.config({
  */
 if (!window._env){
     var _env = {
-        'version':'2014-12-24'
+        'version':'20141224'
     };
 }
 
@@ -32,7 +32,7 @@ if (!window._env){
 }());
 
 /**
- * Start Aniday website
+ * Start RV website
  */
 (function(){
 

@@ -63,7 +63,7 @@ define(['conditioner','conditioner/Observer','ui/AudioPlayer'],function(conditio
         /**
          * Clean up when unloading this module.
          *
-         * @memberof TEst
+         * @memberof Test
          * @static
          * @public
          */

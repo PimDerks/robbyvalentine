@@ -18,8 +18,8 @@ define(['conditioner','conditioner/Observer','utils/Merge', 'utils/Element'],fun
             createPlayer: {
                 markup: '\
                 <div class="audiojs__play-pause"> \
-                    <button class="audiojs__play-pause__play" type="button"><span class="icon icon-play"></span><span class="screenreader">Afspelen</span></button> \
-                    <button class="audiojs__play-pause__pause" type="button"><span class="icon icon-pause"></span><span class="screenreader">Pauzeren</span></button> \
+                    <button class="audiojs__play-pause__play" type="button"><span class="icon icon-play"></span><span class="screenreader">Play</span></button> \
+                    <button class="audiojs__play-pause__pause" type="button"><span class="icon icon-pause"></span><span class="screenreader">Pause</span></button> \
                     <p class="audiojs__play-pause__loading"></p> \
                     <p class="audiojs__play-pause__error"></p> \
                 </div> \

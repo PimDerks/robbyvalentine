@@ -10,14 +10,13 @@ img {
 .tracklist {
   li {
     position:relative;
-    a {
+    .lyric {
       font-size:$font-size-small;
       line-height:$line-height-small;
-      margin-top:-.75rem;
       position:absolute;
       right:.75rem;
       text-decoration:none;
-      top:50%;
+      top:.75em;
     }
   }
 }
