@@ -312,3 +312,27 @@ dl {
   }
 
 }
+
+/* Table
+----------------------------------------------- */
+
+table {
+  table-layout: fixed;
+  border-collapse: separate;
+  width:100%;
+
+  thead {
+    color:$color-white;
+    text-align:left;
+  }
+
+  th,
+  td {
+    padding:.75em;
+  }
+
+  tbody tr:nth-child(odd){
+    background-color:rgba(255,255,255,.15);
+  }
+
+}
